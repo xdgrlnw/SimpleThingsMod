@@ -1,0 +1,76 @@
+{
+	"providers": [
+		{
+			"type": "bitmap",
+			"file": "simple_things:font/5.png",
+			"height": 7,
+			"ascent": 7,
+			"chars": [
+				"🌑"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "simple_things:font/6.png",
+			"height": 7,
+			"ascent": 7,
+			"chars": [
+				"🌒"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "simple_things:font/7.png",
+			"height": 7,
+			"ascent": 7,
+			"chars": [
+				"🌓"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "simple_things:font/8.png",
+			"height": 7,
+			"ascent": 7,
+			"chars": [
+				"🌔"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "simple_things:font/1.png",
+			"height": 7,
+			"ascent": 7,
+			"chars": [
+				"🌕"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "simple_things:font/2.png",
+			"height": 7,
+			"ascent": 7,
+			"chars": [
+				"🌖"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "simple_things:font/3.png",
+			"height": 7,
+			"ascent": 7,
+			"chars": [
+				"🌗"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "simple_things:font/4.png",
+			"height": 7,
+			"ascent": 7,
+			"chars": [
+				"🌘"
+			]
+		}
+	]
+}

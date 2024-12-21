@@ -1,0 +1,36 @@
+{
+  "hud.compass.position": "X: %d Y: %d Z: %d | %d",
+  "hud.compass.death_position": "Death: [X: %d Y: %d Z: %d]",
+  "hud.compass.biome": "Biome: %d",
+
+  "hud.compass.direction.n": "N",
+  "hud.compass.direction.ne": "NE",
+  "hud.compass.direction.e": "E",
+  "hud.compass.direction.se": "SE",
+  "hud.compass.direction.s": "S",
+  "hud.compass.direction.sw": "SW",
+  "hud.compass.direction.w": "W",
+  "hud.compass.direction.nw": "NW",
+
+  "hud.clock": "Day: %d | Moon: %d",
+
+  "hud.clock.moon_phase.0": "\uD83C\uDF15",
+  "hud.clock.moon_phase.1": "\uD83C\uDF16",
+  "hud.clock.moon_phase.2": "\uD83C\uDF17",
+  "hud.clock.moon_phase.3": "\uD83C\uDF18",
+  "hud.clock.moon_phase.4": "\uD83C\uDF11",
+  "hud.clock.moon_phase.5": "\uD83C\uDF12",
+  "hud.clock.moon_phase.6": "\uD83C\uDF13",
+  "hud.clock.moon_phase.7": "\uD83C\uDF14",
+
+  "hud.light": "Light [Block: %d | Sky: %d]",
+  "key.category.simple_things": "Simple Things Mod",
+  "key.toggle.hud": "Simple HUD Toggle",
+  "key.toggle.hud.on": "Simple HUD On",
+  "key.toggle.hud.off": "Simple HUD Off",
+
+  "text.warp.success": "[Simple WARP] Connection to: %d:%d",
+  "text.warp.fail": "[Simple WARP] Connection failed..."
+
+
+}

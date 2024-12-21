@@ -1,0 +1,37 @@
+{
+  "hud.compass.position": "X: %d Y: %d Z: %d | %d",
+  "hud.compass.death_position": "Точка смерти: [X: %d Y: %d Z: %d]",
+  "hud.compass.biome": "Биом: %d",
+
+  "hud.compass.direction.n": "С",
+  "hud.compass.direction.ne": "СВ",
+  "hud.compass.direction.e": "В",
+  "hud.compass.direction.se": "ЮВ",
+  "hud.compass.direction.s": "Ю",
+  "hud.compass.direction.sw": "ЮЗ",
+  "hud.compass.direction.w": "З",
+  "hud.compass.direction.nw": "СЗ",
+
+  "hud.clock": "День: %d | Луна: %d",
+
+  "hud.clock.moon_phase.0": "\uD83C\uDF15",
+  "hud.clock.moon_phase.1": "\uD83C\uDF16",
+  "hud.clock.moon_phase.2": "\uD83C\uDF17",
+  "hud.clock.moon_phase.3": "\uD83C\uDF18",
+  "hud.clock.moon_phase.4": "\uD83C\uDF11",
+  "hud.clock.moon_phase.5": "\uD83C\uDF12",
+  "hud.clock.moon_phase.6": "\uD83C\uDF13",
+  "hud.clock.moon_phase.7": "\uD83C\uDF14",
+
+  "hud.light": "Свет [Блок: %d | Небо: %d]",
+
+  "key.category.simple_things": "Simple Things Мод",
+  "key.toggle.hud": "Simple HUD Переключатель",
+  "key.toggle.hud.on": "Simple HUD Включен",
+  "key.toggle.hud.off": "Simple HUD Отключен",
+
+  "text.warp.success": "[Simple WARP] Подключение к: %d:%d",
+  "text.warp.fail": "[Simple WARP] Подключение не удалось..."
+
+
+}
