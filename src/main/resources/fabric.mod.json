@@ -11,7 +11,7 @@
   "environment": "*",
   "entrypoints": {
     "client": [
-      "me.xdgrlnw.client.SimpleThingsMainClient"
+      "me.xdgrlnw.SimpleThingsMainClient"
     ],
     "main": [
       "me.xdgrlnw.SimpleThingsMain"

@@ -1,6 +1,6 @@
-package me.xdgrlnw.client.mixin;
+package me.xdgrlnw.mixin.client;
 
-import me.xdgrlnw.client.config.ClientConfig;
+import me.xdgrlnw.config.ClientConfig;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.gui.DrawContext;
 import net.minecraft.client.gui.hud.InGameHud;

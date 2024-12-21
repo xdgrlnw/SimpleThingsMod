@@ -1,7 +1,7 @@
-package me.xdgrlnw.client.mixin;
+package me.xdgrlnw.mixin.client;
 
 import com.mojang.serialization.Lifecycle;
-import me.xdgrlnw.client.config.ClientConfig;
+import me.xdgrlnw.config.ClientConfig;
 import net.minecraft.server.integrated.IntegratedServerLoader;
 import net.minecraft.world.SaveProperties;
 import org.spongepowered.asm.mixin.Mixin;

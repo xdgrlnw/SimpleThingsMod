@@ -1,6 +1,6 @@
-package me.xdgrlnw.client;
+package me.xdgrlnw;
 
-import me.xdgrlnw.client.util.SimpleToggles;
+import me.xdgrlnw.util.SimpleToggles;
 import net.fabricmc.api.ClientModInitializer;
 
 public class SimpleThingsMainClient implements ClientModInitializer {

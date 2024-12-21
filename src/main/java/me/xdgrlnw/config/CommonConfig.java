@@ -58,6 +58,7 @@ public class CommonConfig {
     public static class CommonValues {
         String CONFIG_MISC = "--- MISC ---";
         public boolean unlockRecipes = true;
+        public boolean enableServerWarp = true;
         String CONFIG_GAMERULES = "--- GAMERULES ---";
         public boolean enableGlobalGameRules = true;
         public boolean disablePlayerMovementCheck = true;
@@ -72,12 +73,6 @@ public class CommonConfig {
         public boolean disableSmeltingXp = true;
         public boolean disableTradingXp = true;
         public boolean enableFullEnchantCost = true;
-        String CONFIG_BACKUPS = "--- BACKUPS ---";
-        public boolean enableBackups = true;
-        public boolean enableBackupMessages = true;
-        public int backupIntervalInSeconds = 3600;
-        public int maxSavedBackups = 10;
-        public String backupFolderName = ".simple_things/backups";
         String CONFIG_LOGGING = "--- LOGGING ---";
         public boolean loggingEnabled = true;
     }

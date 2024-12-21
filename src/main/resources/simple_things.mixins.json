@@ -4,8 +4,25 @@
   "package": "me.xdgrlnw.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
+    "SimpleGlobalGameRules",
+    "SimpleServerWarp",
+    "SimpleUnlockAllRecipes",
+    "client.SimpleDurabilityTooltip",
+    "config.SimpleConfigInit",
+    "simple_less_xp.SimpleLessXpBreeding",
+    "simple_less_xp.SimpleLessXpEnchanting",
+    "simple_less_xp.SimpleLessXpFishing",
+    "simple_less_xp.SimpleLessXpMining",
+    "simple_less_xp.SimpleLessXpSmelting",
+    "simple_less_xp.SimpleLessXpTrading"
   ],
   "client": [
+    "client.SimpleColorLoadingScreen",
+    "client.SimpleDisableToasts",
+    "client.SimpleDisableWarnings",
+    "client.SimpleFullscreenToggle",
+    "client.SimpleHudOverlay",
+    "client.SimpleTitleChanger"
   ],
   "injectors": {
     "defaultRequire": 1

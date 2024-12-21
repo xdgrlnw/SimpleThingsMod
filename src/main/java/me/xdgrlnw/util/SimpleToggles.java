@@ -1,6 +1,6 @@
-package me.xdgrlnw.client.util;
+package me.xdgrlnw.util;
 
-import me.xdgrlnw.client.config.ClientConfig;
+import me.xdgrlnw.config.ClientConfig;
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
 import net.fabricmc.fabric.api.client.keybinding.v1.KeyBindingHelper;
 import net.minecraft.client.option.KeyBinding;

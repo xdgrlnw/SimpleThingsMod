@@ -1,6 +1,6 @@
-package me.xdgrlnw.client.mixin;
+package me.xdgrlnw.mixin.client;
 
-import me.xdgrlnw.client.config.ClientConfig;
+import me.xdgrlnw.config.ClientConfig;
 import net.minecraft.client.toast.*;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Unique;

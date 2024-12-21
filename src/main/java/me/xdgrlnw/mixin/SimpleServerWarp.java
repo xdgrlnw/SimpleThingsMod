@@ -1,5 +1,6 @@
 package me.xdgrlnw.mixin;
 
+import me.xdgrlnw.config.CommonConfig;
 import me.xdgrlnw.util.SimpleLogger;
 import net.minecraft.block.AbstractSignBlock;
 import net.minecraft.block.BlockState;
@@ -28,6 +29,7 @@ public abstract class SimpleServerWarp {
 
     @Inject(method = "onUse", at = @At("HEAD"), cancellable = true)
     private void onSignUse(BlockState state, World world, BlockPos pos, PlayerEntity player, BlockHitResult hit, CallbackInfoReturnable<ActionResult> cir) {
+        if (!CommonConfig.values.enableServerWarp) return;
         if (!player.isSneaking()) {
             if (world.isClient || !(player instanceof ServerPlayerEntity serverPlayer)) {
                 return;

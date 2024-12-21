@@ -1,4 +1,4 @@
-package me.xdgrlnw.client.config;
+package me.xdgrlnw.config;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -12,7 +12,6 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 
 public class ClientConfig {
-
     private static final String CONFIG_DIR = "config/simple_things/";
     private static final String CLIENT_CONFIG_FILE = "client_config.json";
     private static final Gson GSON = new GsonBuilder().setPrettyPrinting().create();
@@ -51,17 +50,17 @@ public class ClientConfig {
     }
 
     public static class ConfigValues {
-        String CONFIG_HUD = "--- HUD ---";
+        String CONFIG_HUD = "------- HUD -------";
         public boolean enableSimpleHud = true;
         public boolean enableDurabilityTooltip = true;
-        String CONFIG_FIXES = "--- FIXES ---";
+        String CONFIG_FIXES = "------- FIXES -------";
         public boolean disableAnnoyingToasts = true;
         public boolean disableExperimentalWarning = true;
         public boolean disableAutoFullScreen = true;
-        String CONFIG_CUSTOMIZATION = "--- CUSTOMIZATION ---";
+        String CONFIG_CUSTOMIZATION = "------- CUSTOMIZATION -------";
         public boolean enableCustomTitle = true;
         public boolean enableBootScreenReColor = true;
-        public String bootScreenColor = "#FFFF55";
+        public String bootScreenColor = "#333333";
         public String customTitle = "Minecraft - Simple Vanilla - ModPack";
     }
 }
